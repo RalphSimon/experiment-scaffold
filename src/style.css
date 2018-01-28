@@ -1,7 +1,10 @@
-.hello {
-  color: red;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.value {
-  color: #333;
+html,
+body {
+  font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
 }
